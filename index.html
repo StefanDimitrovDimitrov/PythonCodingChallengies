@@ -24,6 +24,7 @@
   ul {
     list-style: none;
     padding: 0;
+    margin: 0;
   }
   li {
     margin-bottom: 12px;
@@ -42,13 +43,17 @@
   a:hover {
     border-color: #58a6ff;
   }
+  hr.group-divider {
+    border: none;
+    border-top: 1px solid #30363d;
+    margin: 28px 0;
+  }
 </style>
 </head>
 <body>
   <h1>Python Coding Challenges</h1>
-  <p class="subtitle">10 Python practice challenges — click a topic to open it.</p>
+  <p class="subtitle">Python, Pandas, and SQL practice challenges — click a topic to open it.</p>
   <ul>
-    <li><a href="pandas_data_practice.html">Pandas Data Practice</a></li>
     <li><a href="python_data_practice.html">Data Practice</a></li>
     <li><a href="python_datacleaning_practice.html">Data Cleaning Practice</a></li>
     <li><a href="python_validation_practice.html">Data Validation Practice</a></li>
@@ -61,6 +66,20 @@
     <li><a href="python_datetimeconv_practice.html">DateTime Module Practice</a></li>
     <li><a href="python_decorators_practice.html">Decorators Practice</a></li>
     <li><a href="python_generators_practice.html">Generators Practice</a></li>
+  </ul>
+
+  <hr class="group-divider">
+
+  <ul>
+    <li><a href="pandas_data_practice.html">Pandas Data Practice</a></li>
+  </ul>
+
+  <hr class="group-divider">
+
+  <ul>
+    <li><a href="sql_fundamentals_practice.html">SQL Fundamentals Practice</a></li>
+    <li><a href="sql_etl_practice.html">SQL for Data Engineering (ETL / Cleanup) Practice</a></li>
+    <li><a href="sql_advanced_practice.html">SQL Window Functions (Advanced) Practice</a></li>
   </ul>
 </body>
 </html>
